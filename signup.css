@@ -1,0 +1,55 @@
+body{
+    background-image: url("back.jpg");
+}
+.Logo img{
+   height: 100px;
+}
+#background{
+    z-index: -2;
+   
+}
+.Container {
+    width: 500px;
+    height: 450px;
+    background-color:#989CC4;
+    position: absolute;
+    margin-left: 350px;
+   
+}
+.Container h1{
+    text-align: center;
+    color: black;
+}
+#Text{
+    width: 250px;
+    position: absolute;
+    margin-left: 130px;
+    height: 25px;
+    
+}
+#Gender{
+    display: inline;
+    margin-left: 130px;
+}
+button{
+    margin-left: 210px;
+    border-radius: 10px;
+    height:25px;
+    width: 100px;
+    padding: 2px;
+    background-color: white;
+
+}
+a{
+color: black;
+margin-left: 175px;
+
+}
+.BGImage{
+    position: absolute;
+    margin-left: 25%;
+    width:400px;
+    height:1000px;
+    margin-top: 200px;
+    z-index:3;
+}
